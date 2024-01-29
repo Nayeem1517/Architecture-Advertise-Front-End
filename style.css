@@ -1,3 +1,10 @@
+/* Shared Style */
+.nav-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+
 * {
     font-family: 'Work Sans';
 }
@@ -30,11 +37,7 @@ nav li a {
     color: #424242;
 }
 
-.nav-title {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #131313;
-}
+
 
 /* Banner related style */
 .banner-content {
@@ -69,42 +72,70 @@ nav li a {
 }
 
 /* team related style */
-.team-container{
+.team-container {
     display: flex;
     align-items: center;
 }
-.teams-img-container{
+
+.teams-img-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.45rem;
 }
-.team-content{
+
+.team-content {
     padding-left: 70px;
     padding-right: 70px;
 }
-.teams-title{
+
+.teams-title {
     font-size: 2.8rem;
 }
-.teams-title .quick{
+
+.teams-title .quick {
     color: #727272;
     font-weight: 500;
 }
-.teams-title .sui{
+
+.teams-title .sui {
     color: #ff900e;
     font-weight: 700;
 }
 
-main{
+main {
     width: 1440px;
     margin: 70px auto;
 }
 
 
+/* features related style */
+.facts-cart-container {
+    display: flex;
+    justify-content: space-around;
+}
+.facts-cart-container .card{
+    border-radius: 8px;
+    border: 1px solid #ff900e;
+    text-align: center;
+    padding: 30px;
+  
 
+}
+.facts-cart-container .card-states{
+    font-size: 2.5rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+}
 
+.facts-cart-container .card-title{
+    font-weight: 600;
+    color: #424242;
+    font-size: 1.25rem;
+    margin-top: 5px;
 
-
+}
 
 
 
@@ -125,14 +156,20 @@ main{
         padding: 20px;
     }
 
-    nav , .team-container {
+    nav,
+    .team-container {
         flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
     }
-    .teams-img-container{
+
+    .teams-img-container {
         display: grid;
         grid-template-columns: 1fr;
+       
     }
-    .team-content{
+
+    .team-content {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -150,4 +187,3 @@ main{
 
     }
 }
-
