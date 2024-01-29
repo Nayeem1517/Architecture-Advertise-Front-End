@@ -106,9 +106,18 @@ main {
     width: 1440px;
     margin: 70px auto;
 }
+/* features Related style */
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+.features .card{
+    padding: 30px;
+    
+}
 
-
-/* features related style */
+/* facts related style */
 .facts-cart-container {
     display: flex;
     justify-content: space-around;
